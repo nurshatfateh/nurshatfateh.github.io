@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+
+  <meta charset="utf-8">
+  <title>ARM or x86</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="shortcut icon" type="images/jpg" href="images/about/author.jpg">
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+<script src="js/script2.js"></script>
+<script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyCaqFCb5GyuWURFrEvAmYwsZC_BJBz1yFI",
+    authDomain: "new-portfolio-comment.firebaseapp.com",
+    databaseURL: "https://new-portfolio-comment-default-rtdb.firebaseio.com",
+    projectId: "new-portfolio-comment",
+    storageBucket: "new-portfolio-comment.appspot.com",
+    messagingSenderId: "941239866400",
+    appId: "1:941239866400:web:d34a761d16b0291cffd845",
+    measurementId: "G-DPL8KS7TVF"
+  };
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+</script>
+
+<body>
+
+
+
+  <!-- nav -->
+  <header class="navigation fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand h4" href="index.html" style="font-weight: bolder; font-family: cursive;">🖇</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="portfolio.html" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-expanded="false">
+              Portfolio
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="projects.html">Projects</a>
+              <a class="dropdown-item" href="certificates.html">Certificates</a>
+              <a class="dropdown-item" href="events.html">Workshops</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Log In</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- nav -->
+
+  <!-- page title -->
+  <section class="page-title bg-primary position-relative">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 class="text-white font-tertiary">Blogs</h1>
+        </div>
+      </div>
+    </div>
+    <!-- background shapes -->
+    <img src="images/illustrations/page-title.png" alt="illustrations" class="bg-shape-1 w-100">
+    <img src="images/illustrations/leaf-pink-round.png" alt="illustrations" class="bg-shape-2">
+    <img src="images/illustrations/dots-cyan.png" alt="illustrations" class="bg-shape-3">
+    <img src="images/illustrations/leaf-orange.png" alt="illustrations" class="bg-shape-4">
+    <img src="images/illustrations/leaf-yellow.png" alt="illustrations" class="bg-shape-5">
+    <img src="images/illustrations/dots-group-cyan.png" alt="illustrations" class="bg-shape-6">
+    <img src="images/illustrations/leaf-cyan-lg.png" alt="illustrations" class="bg-shape-7">
+  </section>
+  <!-- /page title -->
+
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12" data-aos="zoom-in">
+          <h3 class="font-tertiary">Which one is better? ARM or x86? What about Apple M1?</h3>
+          <p class="font-secondary">ARM vs x86 explained in simple terms by <a href="about.html"><span
+                class="text-primary">Nurshat Fateh Ali</span class="text-primary"></a>
+            <br>Read the original Article on <a
+              href="https://vocal.media/01/which-one-is-better-arm-or-x86-what-about-apple-m1"><span
+                class="text-primary">Vocal Media</span class="text-primary"></a>
+          </p>
+          <div class="content">
+            <img src="images/bg.jpg" alt="post-thumb" class="img-fluid rounded  mr-5 mb-4">
+
+            <p>We all know that the core component of our computers and smartphones is the processor. Most of you know
+              the processor names like Intel, Ryzen, M1 for computers. Some of you might also recognize smartphone SOCs
+              like Snapdragon, Exynos, Kirin, A15 Bionic, and so on. But if you are not a tech-savvy person then it's
+              likely that you have never heard the term x86 or ARM architecture. After reading the title, some of you
+              might even ask, "What do you even mean by x86 and ARM?" Well, give me a second to describe these in the
+              simplest terms so that even a child can understand.</p>
+            <p>Two CPU architectures are mostly used in our daily devices. One is ARM architecture and another one is
+              x86 architecture. Now you might ask, "What do you even mean by architecture?" Well, CPU architecture means
+              the basic instruction sets a CPU follows to execute the most basic operations like arithmetic operations,
+              logical operations, input-output, and so on. It is the most basic level commands that a CPU follows to do
+              basic tasks.</p>
+            <p>Now the question arises, "Which architecture is the best?" Before giving a direct answer, I would like to
+              give a briefing about these architectures.</p>
+            <p>Firstly, x86 processors are designed to do heavy workloads. These CPUs are capable to do complex
+              computation, editing, gaming, etc. As x86 processors are very powerful, these require high power to
+              operate. These CPUs produce heat. A proper cooling system is a must for these CPUs. Intel and AMD
+              processors are based on x86 architecture. These are used in almost every desktop and laptop.</p>
+            <p>So, "Does it mean that x86 is the best?" Well, the answer is much more complicated. Mobile devices are
+              often used for basic workloads. These devices need high battery life and less heat output.</p>
+            <p>This is where ARM processors come in. ARM processors are not as power-hungry as x86 ones. These CPUs are
+              more efficient than x86. This increases the battery life and makes them more suitable for handheld
+              devices. These CPUs are capable enough to handle basic workloads. As ARM CPUs are not as powerful as x86
+              (exception: Apple M1), these don't produce heat like x86 based processors. These factors make ARM-based
+              devices more sustainable.</p>
+            <p>Now let's talk about that one exception: Apple M1 has changed the game in favor of ARM. M1 chips are
+              ARM-based but still super powerful. These chips are highly efficient too. M1 has changed the perception of
+              general people that "ARM chips are not powerful enough". In a few cases, Apple M1 even beats equivalent
+              x86 counterparts.</p>
+            <p>So, "Does it mean that ARM is the best?" Honestly speaking, it is harsh to call one better than another.
+              Both architectures have their perks and caveats. Yes, Apple M1 is good but it's fully into Apple's
+              ecosystem. They make both hardware and software which allows them to control every single aspect of the
+              final product. The picture of the PC market is much more different than Apple's ecosystem. A few years
+              ago, ARM-based Snapdragon SOC was used in a windows device. We all know how miserably that experiment
+              failed. So, yes that the Apple M1 is doing great but it is x86 that owns the whole PC market. To take over
+              the PC world, ARM still has a long way to go.</p>
+            <p>Few people might say that the x86 is dying. No one has seen the future but talking about the present, x86
+              is not dead in any meaningful way. Intel and AMD are making progress in x86 CPU space regularly. There is
+              still a huge space for innovation in the x86 department. On the other hand, ARM already rules the
+              smartphone market. ARM has an amazing future as Apple is proving it every single day. As tech enthusiasts,
+              we can only hope that the innovation keeps rolling.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- contact -->
+  <section class="section" data-background="images/backgrounds/bg-dots.png">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto my-5" data-aos="zoom-in">
+          <div class="bg-primary rounded text-center p-5 shadow-down">
+            <h3 class="mb-80" style="font-weight: bolder; color: white;">Leave a comment!</h3>
+
+            <div class="col-md-12">
+              <input type="" id="name" name="name" placeholder="Full Name" class="form-control px-3 mb-4">
+            </div>
+            <div class="col-md-12">
+              <input type="" id="email" name="email" placeholder="Email Address" class="form-control px-3 mb-4">
+            </div>
+            <div class="col-12">
+              <textarea name="msg" id="msg" class="form-control px-3 mb-4" placeholder="Type Comment Here"></textarea>
+            </div>
+            <div class="col-lg-6 col-10 mx-auto">
+              <button onclick="show()" class="btn btn-white w-100">send</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!--<div>
+      <center>Fill up the followings to insert a new student:</center> <br>
+    <center><input type="" id="name" placeholder="Name:" name="name"> <br>
+    <input type="" id="id" title="ID" placeholder="ID:"> <br>
+    <input type="" id="email" title="email" placeholder="Email:"> <br>
+    <button onclick="show()">Submit</button>
+    <br>
+    <br>
+    <center>Fill up the followings to get the information of a student:</center> <br>
+    <input type="" id="id1" name="id" placeholder="ID:"> <br>
+    <button onclick="search()">Search</button> <br>
+
+     <br>
+    <br>
+    <center>Fill up the followings to delete the information of a student:</center> <br>
+    <input type="" id="for_del" name="id" placeholder="ID:"> <br>
+    <button onclick="delete_()">Delete</button> <br>
+
+    <br>
+    <br>
+    <button onclick="all_student_view()">All Student View</button> <br>
+    <br>
+    <a href="iform.html"> Click to view Form </a></center>
+    </div>-->
+    </div>
+  </section>
+  <!-- /contact -->
+
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+
+          <div class="bg-primary p-5 mb-4" data-aos="zoom-in">
+            <h3 class="mb-80" style="font-weight: bolder; color: white; text-align: center;;">Comments</h3>
+            <div id="yo">
+
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+  <!-- footer -->
+  <footer class="bg-dark footer-section">
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5 class="text-light">Email</h5>
+            <p class="text-white paragraph-lg font-secondary">nurshatfateh@gmail.com</p>
+          </div>
+          <div class="col-md-4">
+            <h5 class="text-light">Phone</h5>
+            <p class="text-white paragraph-lg font-secondary">+8801933318385</p>
+          </div>
+          <div class="col-md-4">
+            <h5 class="text-light">Address</h5>
+            <p class="text-white paragraph-lg font-secondary">Dhaka, Bangladesh</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="border-top text-center border-dark py-1">
+      <p class="mb-0 text-light">© All Rights Reserved To Nurshat Fateh Ali
+        <script>
+          var CurrentYear = new Date().getFullYear()
+          document.write(CurrentYear)
+        </script>
+      </p>
+      <p>
+      <div class="footer_social">
+        <a href="https://www.facebook.com/nurshat.fatehali.336/"><i class="ti-facebook"> </i></a>
+        <a href="https://www.linkedin.com/in/nurshatfatehali/"><i class="ti-linkedin"> </i></a>
+        <a href="https://github.com/nurshatfateh"><i class="ti-github"> </i></a>
+        <a href="https://youtube.com/channel/UCIC0k-SwOIUJf73pF_hwOZw"><i class="ti-youtube"> </i></a>
+      </div>
+      </p>
+    </div>
+  </footer>
+  <!-- /footer -->
+
+  <!-- jQuery -->
+  <script src="plugins/jQuery/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <!-- slick slider -->
+  <script src="plugins/slick/slick.min.js"></script>
+  <!-- filter -->
+  <script src="plugins/shuffle/shuffle.min.js"></script>
+
+  <!-- Main Script -->
+  <script src="js/script.js"></script>
+  <script src="js/script2.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
