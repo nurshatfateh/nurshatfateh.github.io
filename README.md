@@ -1,4 +1,3 @@
-# New Portfolio (OUTDATED based on 2024)
- nurshatfateh/nurshatfateh.github.io
+# 2nd Portfolio (OUTDATED) (LAST UPDATED ON 2022)
 ## Using HTML, CSS, Bootstrap, Firebase, JavaScript
-## https://nurshatfateh.github.io/
+
